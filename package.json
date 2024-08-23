@@ -1,0 +1,18 @@
+{
+  "name": "trafic-forwarder",
+  "version": "1.0.0",
+  "description": "backend-trafic forwarder",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "wicaksu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4"
+  }
+}
